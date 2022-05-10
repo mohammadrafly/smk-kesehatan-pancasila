@@ -596,7 +596,7 @@
                     <i class="ni ni-key-25 text-primary text-gradient"></i>
                   </span>
                   <div class="timeline-content">
-                    <h6 class="text-dark text-sm font-weight-bold mb-0">Unlock packages for development</h6>
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">Unlock packages for development Lmao</h6>
                     <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">18 DEC 4:54 AM</p>
                   </div>
                 </div>
