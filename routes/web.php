@@ -7,10 +7,12 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\JurusanController;
 use App\Http\Controllers\Home;
 use App\Models\Post;
 use App\Models\User;
 use App\Models\Category;
+use App\Models\Jurusan;
 
 /*
 |--------------------------------------------------------------------------
@@ -108,6 +110,10 @@ Route::middleware(['auth'])->group(function () {
                         'user'      => Auth::user()->email,
                     ]);
                 })->name('jurusan.add');
+                Route::post('add/proses', 'store')->name('jurusan.add.proses');
+                Route::get('delete/{id}', 'delete')->name('jurusan.delete');
+                Route::get('edit/{id}', 'edit')->name('jurusan.edit');
+                Route::put('update/{id}', 'update')->name('jurusan.update');
             });
         });
     });

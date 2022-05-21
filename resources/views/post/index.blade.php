@@ -5,7 +5,8 @@
           <div class="card mb-4">
             <div class="card-header pb-1">
               <h6>{{ $pages }}</h6>
-              <a class="btn bg-gradient-dark mb-0" href="{{ route('post.add') }}"><i class="fas fa-plus"></i>&nbsp;&nbsp;Add New Card</a>
+              <a class="btn bg-gradient-dark mb-0" href="{{ route('post.add') }}"><i class="fas fa-plus"></i>&nbsp;&nbsp;Add Post</a>
+              <a class="btn bg-gradient-dark mb-0" href="{{ route('category') }}"><i class="fas fa-plus"></i>&nbsp;&nbsp;Category</a>
             </div>
             <div class="card-body px-0 pt-0 pb-2">
               <div class="table-responsive p-0">
