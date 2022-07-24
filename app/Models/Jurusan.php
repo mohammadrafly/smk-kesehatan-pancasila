@@ -8,8 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Jurusan extends Model
 {
     use HasFactory;
-    protected $table = 'categories';
+    protected $table = 'jurusans';
     protected $fillable = [
-        'title', 'description', 'slug'
+        'title', 'content', 'slug'
     ];
 }

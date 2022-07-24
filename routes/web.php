@@ -34,7 +34,7 @@ Route::controller(CustomAuthController::class)->group(function () {
 
 Route::controller(Home::class)->group(function () {
     Route::prefix('/')->group(function () {
-        Route::get('', 'index');
+        Route::get('', 'index')->name('beranda');
     });
 });
 

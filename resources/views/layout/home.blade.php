@@ -10,9 +10,10 @@
     <meta name="author" content="">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
-    <title>Chain App Dev - App Landing Page HTML5 Template</title>
+    <title>SMK 4 Kesehatan Pancasila</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -61,12 +62,53 @@ https://templatemo.com/tm-570-chain-app-dev
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
-              <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-              <li class="scroll-to-section"><a href="#services">Services</a></li>
-              <li class="scroll-to-section"><a href="#about">About</a></li>
-              <li class="scroll-to-section"><a href="#pricing">Pricing</a></li>
-              <li class="scroll-to-section"><a href="#newsletter">Newsletter</a></li>
-              <li><div class="gradient-button"><a id="modal_trigger" href="#modal"><i class="fa fa-sign-in-alt"></i> Sign In Now</a></div></li> 
+              <li class="nav-item">
+                <a class="nav-link active" href="{{ route('beranda') }}">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Profil</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Jurusan</a>
+                  <a class="dropdown-item" href="#">Kegiatan Ekskul</a>
+                  <a class="dropdown-item" href="#">Fasilitas</a>
+                  <a class="dropdown-item" href="#">Lingkungan Sekolah</a>
+                  <a class="dropdown-item" href="#">Struktur Organisasi</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Status Akreditasi</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Info PPDB</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Link Pendaftaran</a>
+                  <a class="dropdown-item" href="#">Syarat" Pendaftaran</a>
+                  <a class="dropdown-item" href="#">Info Gelombang Pendaftaran</a>
+                  <a class="dropdown-item" href="#">Info Beasiswa</a>
+                  <a class="dropdown-item" href="#">Contact Person</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Akademik</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Kalender Akademik</a>
+                  <a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Rangking Ujian</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Paralel</a>
+                    <a class="dropdown-item" href="#">Perkelas</a>
+                  </div>
+                  <a class="dropdown-item" href="#">Struktur Kurikulum</a>
+                  <a class="dropdown-item" href="#">Berita Pendidikan</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">BKK</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Info Lowongan</a>
+                  <a class="dropdown-item" href="#">Literasi Digital</a>
+                  <a class="dropdown-item" href="#">Berita Sekolah</a>
+                </div>
+              </li>
+              <li class="nav-item"><div class="gradient-button"><a id="modal_trigger" href="#modal"><i class="fa fa-sign-in-alt"></i> Login</a></div></li> 
             </ul>        
             <a class='menu-trigger'>
                 <span>Menu</span>
@@ -655,5 +697,8 @@ https://templatemo.com/tm-570-chain-app-dev
   <script src="assets/js/imagesloaded.js"></script>
   <script src="assets/js/popup.js"></script>
   <script src="assets/js/custom.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
